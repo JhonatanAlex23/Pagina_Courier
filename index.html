@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Viajero - Inicio</title>
+    <link rel="icon" href="img/LOGO.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="logo-container">
+            <img src="img/LOGO.jpg" alt="Logo Viajero Courier">
+        </div>
+
+        <div class="Nosotros">
+            <h3>Nosotros</h3>
+        </div>
+
+        <div class="Nosotros">
+            <h3>Rutas</h3>
+        </div>
+
+        <div class="Nosotros">
+            <h3>Contacto</h3>
+        </div>
+      
+    </header>   
+
+    <main>
+        <!-- SECCIÓN BANNER / HERO CON IMAGEN DE FONDO -->
+        <section class="img-container">
+            <img src="img/fondo_courier.jpg" alt="Fondo de camioneta de envíos" class="image">
+            <div class="overlay"></div>
+
+        </section>
+
+        <!-- SECCIÓN DE DESTINOS (CARRUSEL) -->
+        <section class="destinos-section">
+            <h2 class="destinos-title">Nuestras Agencias</h2>
+            
+            <div class="carrusel-container">
+                <button type="button" class="carrusel-btn prev-btn" id="prevBtn">&#10094;</button>
+                
+                <div class="carrusel-track-wrapper">
+                    <div class="carrusel-track" id="carruselTrack">
+                        <div class="carrusel-item">
+                            <img src="img/Tacna.jpg" alt="Tacna">
+                            <h3>Tacna</h3>
+                        </div>
+                        <div class="carrusel-item">
+                            <img src="img/arequipa.jpg" alt="Arequipa">
+                            <h3>Arequipa</h3>
+                        </div>
+                        <div class="carrusel-item">
+                            <img src="img/Ilo.png" alt="Cusco">
+                            <h3>Ilo</h3>
+                        </div>
+                        <div class="carrusel-item">
+                            <img src="img/Moquegua.jpg" alt="Lima">
+                            <h3>Moquegua</h3>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <button type="button" class="carrusel-btn next-btn" id="nextBtn">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <p class="footer-brand">Viajero Courier</p>
+                <p>Copyright &copy; 2026 - Todos los derechos reservados</p>
+            </div>
+            <div class="footer-col">
+                <h4>Sucursales:</h4>
+                <p><strong>Tacna</strong></p>
+                <p>Av. Vigil 1030 </p>
+                <p><strong>Moquegua</strong></p>
+                <p>Av. Moquegua 115</p>
+                <p><strong>Ilo</strong></p>
+                <p>Av. Ilo 130 </p>
+                <p><strong>Arequipa</strong></p>
+                <p>Av. Arequipa 140</p>
+            </div>
+            <div class="footer-col">
+                <p><strong>Redes sociales</strong></p>
+                <img src="img/facebook.png" alt="logo de facebook" width="50">
+                <img src="img/Instagram.png" alt="Instagram" width="50">
+                <img src="img/tik-tok.png" alt="logo de facebook" width="50">
+           
+                <p><strong>Contáctanos:</strong></p>
+                <a href="https://wa.me/" target="_blank" class="whatsapp-link">
+                    <img src="img/whatsapp.png" alt="WhatsApp" width="50">
+                    <span>Escríbenos al WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lógica JavaScript externa -->
+    <script src="script.js"></script>
+</body>
+</html>
