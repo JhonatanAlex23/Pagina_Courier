@@ -1,0 +1,134 @@
+/* =========================================
+   ESTILOS DE LA PÁGINA RUTAS
+========================================= */
+
+.main-rutas {
+    background-color: #f4f4f4; /* Fondo grisáceo para que la tarjeta resalte */
+    padding: 60px 20px;
+}
+
+.contenedor-ruta {
+    display: flex;
+    max-width: 1000px; /* Ancho máximo de la tarjeta */
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* Sombra suave */
+    border-radius: 12px;
+    overflow: hidden; /* Corta las esquinas de la imagen para que sea redonda */
+    align-items: center;
+}
+
+/* --- Columna Izquierda (Mapa) --- */
+.mapa-ruta {
+    flex: 1; /* Ocupa el 50% de la tarjeta */
+    border-bottom: 15px solid #E3000F; /* Franja roja inferior decorativa */
+}
+
+.mapa-ruta img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --- Columna Derecha (Información) --- */
+.info-ruta {
+    flex: 1; /* Ocupa el otro 50% */
+    padding: 40px 50px;
+}
+
+.titulo-ruta {
+    color: #E3000F;
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.info-item {
+    margin-bottom: 25px;
+}
+
+.info-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.info-titulo .icono-pequeno {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.info-titulo h3 {
+    color: #E3000F;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.info-item p {
+    margin: 0 0 0 32px; /* Sangría para alinear el texto debajo de la palabra, no del icono */
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.info-direccion strong {
+    display: block;
+    margin: 0 0 4px 32px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* --- Botones --- */
+.botones-ruta {
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+    margin-left: 32px; /* Alineado con los textos */
+}
+
+.btn-ruta {
+    background-color: #E3000F;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s;
+    font-size: 14px;
+}
+
+.btn-ruta img {
+    width: 18px;
+    height: 18px;
+    /* Este filtro convierte iconos negros o de color a color blanco puro */
+    filter: brightness(0) invert(1); 
+}
+
+.btn-ruta:hover {
+    background-color: #b3000b; /* Rojo más oscuro al pasar el cursor */
+}
+
+/* --- Diseño Responsive (Pantallas pequeñas) --- */
+@media (max-width: 850px) {
+    .contenedor-ruta {
+        flex-direction: column; /* Apila el mapa arriba y el texto abajo */
+    }
+    .mapa-ruta, .info-ruta {
+        width: 100%;
+    }
+    .info-ruta {
+        padding: 30px 20px;
+    }
+    .botones-ruta {
+        margin-left: 0;
+        flex-wrap: wrap; /* Si la pantalla es muy pequeña, los botones se bajan de línea */
+    }
+}

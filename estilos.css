@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f3eeee;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -11,57 +11,52 @@ main {
     flex: 1;
 }
 
-/* Encabezado */
+/* --- ESTILOS DEL ENCABEZADO --- */
 header {
-    background-color: #000033;
-    color: white;
-    padding: 15px 30px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5px solid #ff9933;
+    padding: 20px 50px;
+    background-color: #000033;
+    border-bottom: 10px solid #ff9933;
 }
 
-.logo-container {
+.logo-container img {
+
+    max-height: 80px;
+    width: auto;
+}
+
+/* --- ESTILOS DE LA BARRA DE NAVEGACIÓN --- */
+.navbar ul {
+    list-style: none;
     display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-header img {
-    width: 120px;
-    height: auto;
-}
-
-header h4 {
+    gap: 30px;
     margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 1px;
+    padding: 0;
 }
 
-.btn-ingresar {
-
-    background-color: white;
-    color: black;
-    background-color: #ff9933;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    font-weight: bold;
-    font-size: 14px;
-    font-size: 18px;
-    transition: background 0.3s;
+.navbar ul li {
     display: inline-block;
 }
 
-.btn-ingresar:hover {
-
-    background-color: white;
-    background-color: #fa8108;
-
+.navbar ul li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
 }
+
+.navbar ul li a:hover {
+    color: #ff9933;
+}
+
+
+
 
 /* Imagen principal a ancho completo */
 .img-container {
