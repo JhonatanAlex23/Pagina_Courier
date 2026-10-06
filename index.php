@@ -16,8 +16,9 @@
 
     <main>
         <!-- SECCIÓN BANNER / HERO CON IMAGEN DE FONDO -->
-        <section class="img-container">
+        <section class="contenido-img">
             <img src="img/fondo_courier.jpg" alt="Fondo de camioneta de envíos" class="image">
+            <p class="titulo"> ENVIO SEGUROS</p>
             <div class="overlay"></div>
         </section>
 
@@ -28,7 +29,7 @@
             <div class="carrusel-container">
                 
                 <div class="carrusel-track-wrapper">
-                    <div class="carrusel-track" id="carruselTrack">
+                    <div class="carrusel-track" >
                         <div class="carrusel-item">
                             <img src="img/Tacna.jpg" alt="Tacna">
                             <h3>Tacna</h3>

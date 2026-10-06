@@ -11,9 +11,9 @@
         </div>
         <div class="footer-col">
             <p><strong>Redes sociales</strong></p>
-            <img src="img/facebook.png" alt="logo de facebook" width="50">
-            <img src="img/instagram.png" alt="Instagram" width="50">
-            <img src="img/tik-tok.png" alt="logo de tiktok" width="50">
+            <img src="<?php echo $base; ?>/img/facebook.png" alt="logo de facebook" width="50">
+            <img src="<?php echo $base; ?>/img/instagram.png" alt="Instagram" width="50">
+            <img src="<?php echo $base; ?>/img/tik-tok.png" alt="logo de tiktok" width="50">
        
             <p><strong>Contáctanos:</strong></p>
             <a href="https://wa.me/" target="_blank" class="whatsapp-link">
