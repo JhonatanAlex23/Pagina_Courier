@@ -29,20 +29,6 @@
             </div>
         </section>
 
-        <h1 class="titulo-nosotros">SERVICIOS DE TURISMO</h1>
-        
-        <section class="contenedor-nosotros">
-            <div class="galeria-nosotros">
-                <img src="../img/Tacna.jpg" alt="Carga de mercadería" class="img-1">
-            </div>
-            
-            <div class="texto-nosotros">
-                <h2>Envíos con seguridad<br>y confianza</h2>
-                <p>En Viajero Courier somos líderes en el transporte de carga a nivel nacional...</p>
-            </div>
-        </section>
-
-
     </main>
 
     <!-- CORREGIDO: Se agrega ../ para el footer -->

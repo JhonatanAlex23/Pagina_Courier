@@ -15,15 +15,15 @@
     <!-- CORREGIDO: Se agrega ../ para salir de "nosotros" y entrar a "include" -->
     <?php include '../include/header.php'; ?>
 
-    <main>
-        <h1 class="titulo-nosotros">SERVICIO DE TURISMO</h1>
+    <main class="fondo_courier">
+        <h1 class="titulo-servicio">SERVICIO DE COURIER</h1>
         
-        <section class="contenedor-nosotros">
-            <div class="galeria-nosotros">
+        <section class="contenido-servicio">
+            <div class="servicio-img">
                 <img src="../img/Tacna.jpg" alt="Carga de mercadería" class="img-1">
             </div>
             
-            <div class="texto-nosotros">
+            <div class="texto-servicio">
                 <h2>Envíos con seguridad<br>y confianza</h2>
                 <p>En Viajero Courier somos líderes en el transporte de carga a nivel nacional...</p>
             </div>

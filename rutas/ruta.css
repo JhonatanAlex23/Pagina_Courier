@@ -21,7 +21,7 @@
 /* --- Columna Izquierda (Mapa) --- */
 .mapa-ruta {
     flex: 1; /* Ocupa el 50% de la tarjeta */
-    border-bottom: 15px solid #E3000F; /* Franja roja inferior decorativa */
+    border-bottom: 15px solid #000333;; /* Franja roja inferior decorativa */
 }
 
 .mapa-ruta img {
@@ -37,7 +37,7 @@
 }
 
 .titulo-ruta {
-    color: #E3000F;
+    color: #000333;;
     font-size: 26px;
     font-weight: 900;
     margin-bottom: 30px;
@@ -62,7 +62,7 @@
 }
 
 .info-titulo h3 {
-    color: #E3000F;
+    color: #000333;;
     font-size: 20px;
     margin: 0;
     font-weight: 800;
@@ -92,7 +92,7 @@
 }
 
 .btn-ruta {
-    background-color: #E3000F;
+    background-color: #000333;;
     color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
@@ -113,7 +113,7 @@
 }
 
 .btn-ruta:hover {
-    background-color: #b3000b; /* Rojo más oscuro al pasar el cursor */
+    background-color: #000333;; /* Rojo más oscuro al pasar el cursor */
 }
 
 /* --- Diseño Responsive (Pantallas pequeñas) --- */

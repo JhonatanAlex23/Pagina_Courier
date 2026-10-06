@@ -23,10 +23,9 @@
 
         <!-- SECCIÓN DE DESTINOS (CARRUSEL) -->
         <section class="destinos-section">
-            <h2 class="destinos-title">Nuestras Agencias</h2>
+            <h2 class="destinos-title">Nuestras Destinos de Envio:</h2>
             
             <div class="carrusel-container">
-                <button type="button" class="carrusel-btn prev-btn" id="prevBtn">&#10094;</button>
                 
                 <div class="carrusel-track-wrapper">
                     <div class="carrusel-track" id="carruselTrack">
@@ -48,8 +47,6 @@
                         </div>
                     </div>
                 </div>
-
-                <button type="button" class="carrusel-btn next-btn" id="nextBtn">&#10095;</button>
             </div>
         </section>
     </main>
