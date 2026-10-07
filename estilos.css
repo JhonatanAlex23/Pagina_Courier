@@ -7,6 +7,10 @@ body {
     min-height: 100vh;
 }
 
+main {
+    flex: 1;
+}
+
 
 /* --- ESTILOS DEL ENCABEZADO --- */
 header {
@@ -188,7 +192,7 @@ footer {
 
 .footer-col p {
     margin: 8px 0;
-    font-size: 14px;
+    font-size: 15px;
     color: #ddd;
 }
 

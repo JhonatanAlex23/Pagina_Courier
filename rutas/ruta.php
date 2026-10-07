@@ -30,15 +30,7 @@
             <div class="info-ruta">
                 <h2 class="titulo-ruta">RUTAS</h2>
                 
-                <!-- Sección de Destinos -->
-                <div class="info-item">
-                    <div class="info-titulo">
-                        <!-- Puedes usar una imagen de un pin de mapa aquí -->
-                        <img src="../img/icono_destino.png" alt="Icono destino" class="icono-pequeno"> 
-                        <h3>Destinos:</h3>
-                    </div>
-                    <p>ILO - MOQUEGUA - AREQUIPA.</p>
-                </div>
+                
 
                 <!-- Sección de Envíos -->
                 <div class="info-item">
@@ -51,6 +43,16 @@
                         <strong>TACNA</strong>
                         <p>Av. Vigil 1030 - Tacna</p>
                     </div>
+                </div>
+
+                <!-- Sección de Destinos -->
+                <div class="info-item">
+                    <div class="info-titulo">
+                        <!-- Puedes usar una imagen de un pin de mapa aquí -->
+                        <img src="../img/icono_destino.png" alt="Icono destino" class="icono-pequeno"> 
+                        <h3>Destinos:</h3>
+                    </div>
+                    <p>ILO - MOQUEGUA - AREQUIPA.</p>
                 </div>
              
                 <!-- Botones de Acción 

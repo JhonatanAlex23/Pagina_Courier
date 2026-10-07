@@ -1,70 +1,66 @@
 /* =========================================
-   ESTILOS DE LA PÁGINA NOSOTROS
+   ESTILOS DE LA PÁGINA NOSOTROS / RUTAS
 ========================================= */
 
-.titulo-nosotros {
+.titulo-servicio {
     text-align: center;
-    color: #000333; /* Color rojo */
+    color: #000333;
     font-style: italic;
     font-size: 32px;
     margin-top: 40px;
     font-weight: 800;
 }
 
-.contenedor-nosotros {
+.contenido-servicio {
     display: flex;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px 80px 20px;
-    gap: 50px; /* Separación entre imágenes y texto */
+    max-width: 1000px; 
+    margin: 40px auto; 
+    padding: 40px; 
+    gap: 50px; 
     align-items: center;
+    
+    /* Efecto de Caja (Card) */
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); 
 }
 
-/* --- Galería Collage (Columna Izquierda) --- */
-.galeria-nosotros {
+.servicio-img {
     flex: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr; /* Simplificado a 1 columna ya que solo usas 1 imagen */
     gap: 10px;
 }
 
-.galeria-nosotros img {
+.servicio-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
+    border-radius: 8px; /* Bordes suaves para la imagen también */
 }
 
-/* Acomodamos las 3 imágenes en la grilla */
-.img-1 {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+.texto-servicio {
+    flex: 2;
 }
 
-
-/* --- Texto (Columna Derecha) --- */
-.texto-nosotros {
-    flex: 1;
-}
-
-.texto-nosotros h2 {
+.texto-servicio h2 {
     font-size: 32px;
-    color: #000;
+    color: #000333;
     margin-bottom: 20px;
-    line-height: 1.2;
 }
 
-.texto-nosotros p {
+.texto-servicio p {
     font-size: 16px;
     line-height: 1.6;
-    color: #333;
+    color: #000333;
     text-align: justify;
 }
 
-/* Diseño Responsive: Si se ve en celular, las imágenes van arriba y el texto abajo */
-@media (max-width: 850px) {
-    .contenedor-nosotros {
+/* Adaptación para celulares y tablets */
+@media(max-width: 850px){
+    .contenido-servicio {
         flex-direction: column;
+        padding: 30px 20px; 
+        margin: 20px; /* Evita que la caja choque con los bordes de la pantalla en móviles */
     }
 }
