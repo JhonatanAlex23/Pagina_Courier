@@ -22,30 +22,28 @@
             <div class="overlay"></div>
         </section>
 
-        <!-- SECCIÓN DE DESTINOS (CARRUSEL) -->
+     
+        <!-- SECCIÓN DE DESTINOS (ESTÁTICA) -->
         <section class="destinos-section">
-            <h2 class="destinos-title">Nuestras Destinos de Envio:</h2>
-            
-            <div class="carrusel-container">
+            <div class="destinos-container">
+                <h2 class="destinos-title">Nuestras Destinos de Envio:</h2>
                 
-                <div class="carrusel-track-wrapper">
-                    <div class="carrusel-track" >
-                        <div class="carrusel-item">
-                            <img src="img/Tacna.jpg" alt="Tacna">
-                            <h3>Tacna</h3>
-                        </div>
-                        <div class="carrusel-item">
-                            <img src="img/arequipa.jpg" alt="Arequipa">
-                            <h3>Arequipa</h3>
-                        </div>
-                        <div class="carrusel-item">
-                            <img src="img/Ilo.png" alt="Ilo">
-                            <h3>Ilo</h3>
-                        </div>
-                        <div class="carrusel-item">
-                            <img src="img/Moquegua.jpg" alt="Moquegua">
-                            <h3>Moquegua</h3>
-                        </div>
+                <div class="destinos-grid">
+                    <div class="destino-item">
+                        <img src="img/Tacna.jpg" alt="Tacna">
+                        <h3>Tacna</h3>
+                    </div>
+                    <div class="destino-item">
+                        <img src="img/arequipa.jpg" alt="Arequipa">
+                        <h3>Arequipa</h3>
+                    </div>
+                    <div class="destino-item">
+                        <img src="img/Ilo.png" alt="Ilo">
+                        <h3>Ilo</h3>
+                    </div>
+                    <div class="destino-item">
+                        <img src="img/Moquegua.jpg" alt="Moquegua">
+                        <h3>Moquegua</h3>
                     </div>
                 </div>
             </div>
