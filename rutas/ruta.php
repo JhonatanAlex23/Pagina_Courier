@@ -36,7 +36,7 @@
                 <div class="info-item">
                     <div class="info-titulo">
                         <!-- Puedes usar una imagen de una cajita aquí -->
-                        <img src="../img/icono_caja.png" alt="Icono envío" class="icono-pequeno">
+                        <img src="../img/ubicacion.png" alt="Icono envío" class="icono-pequeno">
                         <h3>Envíos desde Tacna:</h3>
                     </div>
                     <div class="info-direccion">
@@ -49,7 +49,7 @@
                 <div class="info-item">
                     <div class="info-titulo">
                         <!-- Puedes usar una imagen de un pin de mapa aquí -->
-                        <img src="../img/icono_destino.png" alt="Icono destino" class="icono-pequeno"> 
+                        <img src="../img/caja.png" alt="Icono destino" class="icono-pequeno"> 
                         <h3>Destinos:</h3>
                     </div>
                     <p>ILO - MOQUEGUA - AREQUIPA.</p>
